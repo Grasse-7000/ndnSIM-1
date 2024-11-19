@@ -1,0 +1,18 @@
+# try-topo.txt
+
+router
+
+#node	city	y	  x
+RSU1   NA	  -198	  91
+RSU2	  NA	  -251	  279
+RSU3	  NA	  -296	  473
+RSU4	  NA	  -470	  541
+RSU5   NA    -180	  610
+
+link
+
+# from	    to		capacity	metric	delay	  queue
+RSU1	   RSU2  	10Mbps		1	      2ms	    100
+RSU2	   RSU3  	10Mbps		1	      2ms	    100
+RSU3	   RSU4  	10Mbps		1	      2ms	    100
+RSU3	   RSU5  	10Mbps		1	      2ms	    100
